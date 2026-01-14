@@ -13,17 +13,19 @@
       <form>
         <div class="form-group">
           <label for="username">Username : </label>
-
           <input type="text" name="username" id="username" class="" />
+          <small id="usernameError" class="error"></small>
 
           <label for="password">Password : </label>
-
           <input type="password" name="password" id="password" class="" />
+          <small id="passwordError" class="error"></small>
         </div>
+        <small id="formError" class="error"></small>
 
         <button type="submit">Login</button>
       </form>
     </div>
+
     <script src="LoginPage.js"></script>
   </body>
 </html>

@@ -63,3 +63,15 @@ button {
 button:hover {
   background-color: #0f2d6c;
 }
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.input-error {
+  border: 1px solid red;
+}
